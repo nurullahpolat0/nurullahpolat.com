@@ -2,7 +2,7 @@ baseURL: ""
 lannguageCode: en-us
 title: Nurullah Polat
 paginate: 5
-theme: hugo-PaperMod-master
+theme: Lovelt-master
 
 enableRobotsTXT: true
 buildDrafts: false
