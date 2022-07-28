@@ -1,3 +1,3 @@
 ---
-title: First post
+title: Welcome My Blog
 ---

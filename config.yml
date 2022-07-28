@@ -1,5 +1,3 @@
-## baseURL: "https://www.nurullahpolat.com/"
+baseURL: "https://www.nurullahpolat.com/"
 lannguageCode: en-us
-title: Nurullah Polat
-paginate: 5
 theme: LoveIt-master

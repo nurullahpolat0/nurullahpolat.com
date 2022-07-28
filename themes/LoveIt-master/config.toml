@@ -159,14 +159,11 @@
       # disclaimer (HTML format is supported)
       disclaimer = ""
     # Home page posts
-    # 主页文章列表
     [params.home.posts]
       enable = true
-      # special amount of posts in each home posts page
-      # 主页每页显示文章数量
+      # special amount of posts in each home posts page 
       paginate = 6
   # Social config in home page
-  # 主页的社交信息设置
   [params.social]
     GitHub = "nurullahpolat0"
     Linkedin = "nurullah-polat-5735971b5"
@@ -245,37 +242,26 @@
     RSS = ""
 
   # Page global config
-  # 文章页面全局配置
   [params.page]
     # whether to hide a page from home page
-    # 是否在主页隐藏一篇文章
     hiddenFromHomePage = false
     # whether to hide a page from search results
-    # 是否在搜索结果中隐藏一篇文章
     hiddenFromSearch = false
     # whether to enable twemoji
-    # 是否使用 twemoji
     twemoji = false
     # whether to enable lightgallery
-    # 是否使用 lightgallery
     lightgallery = false
     # whether to enable the ruby extended syntax
-    # 是否使用 ruby 扩展语法
     ruby = true
     # whether to enable the fraction extended syntax
-    # 是否使用 fraction 扩展语法
     fraction = true
     # whether to enable the fontawesome extended syntax
-    # 是否使用 fontawesome 扩展语法
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
-    # 是否显示原始 Markdown 文档内容的链接
     linkToMarkdown = true
     # whether to show the full text content in RSS
-    # 是否在 RSS 中显示全文内容
     rssFullText = false
     # Table of the contents config
-    # 目录配置
     [params.page.toc]
       # whether to enable the table of the contents
       # 是否使用目录
@@ -421,7 +407,7 @@
         appId = ""
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
-        languageCode = ""
+        languageCode = "tr"
       # Telegram comments config (https://comments.app/)
       # Telegram comments 评论系统设置 (https://comments.app/)
       [params.page.comment.telegram]
@@ -493,7 +479,6 @@
         logoUrl = ""
 
   # TypeIt config
-  # TypeIt 配置
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
     # 每一步的打字速度 (单位是毫秒)
@@ -509,7 +494,6 @@
     duration = -1
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
-  # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
     google = ""
     bing = ""
@@ -518,7 +502,6 @@
     baidu = ""
 
   # Site SEO config
-  # 网站 SEO 配置
   [params.seo]
     # image URL
     # 图片 URL
@@ -528,7 +511,6 @@
     thumbnailUrl = ""
 
   # Analytics config
-  # 网站分析配置
   [params.analytics]
     enable = false
     # Google Analytics
@@ -551,7 +533,6 @@
       id = ""
 
   # Cookie consent config
-  # Cookie 许可配置
   [params.cookieconsent]
     enable = false
     # text strings used for Cookie consent banner
@@ -562,7 +543,6 @@
       link = ""
 
   # CDN config for third-party library files
-  # 第三方库文件的 CDN 设置
   [params.cdn]
     # CDN data file name, disabled by default
     # ["jsdelivr.yml"]
@@ -577,7 +557,6 @@
     data = "jsdelivr.yml"
 
   # Compatibility config
-  # 兼容性设置
   [params.compatibility]
     # whether to use Polyfill.io to be compatible with older browsers
     # 是否使用 Polyfill.io 来兼容旧式浏览器
