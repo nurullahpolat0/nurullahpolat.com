@@ -146,7 +146,7 @@
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "images/avatar.jpg"
+      avatarURL = "/images/avatar.jpg"
       # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported
@@ -170,13 +170,13 @@
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = "https://github.com/nurullahpolat0"
-    Linkedin = ""
-    Twitter = ""
+    GitHub = "nurullahpolat0"
+    Linkedin = "nurullah-polat-5735971b5"
+    Twitter = "nurullahpolat0"
     Instagram = ""
     Facebook = ""
     Telegram = ""
-    Medium = ""
+    Medium = "@nurullahpolatt"
     Gitlab = ""
     Youtubelegacy = ""
     Youtubecustom = ""
