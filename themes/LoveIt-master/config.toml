@@ -136,26 +136,20 @@
       searchKey = ""
 
   # Home page config
-  # 主页信息设置
+
   [params.home]
     # amount of RSS pages
-    # RSS 文章数目
     rss = 10
     # Home page profile
-    # 主页个人信息
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
-      # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # URL of avatar shown in home page
-      # 主页显示头像的 URL
-      avatarURL = "/resources/_gen/images/avatar.jpg"
+      avatarURL = "images/avatar.jpg"
       # title shown in home page (HTML format is supported)
-      # 主页显示的网站标题 (支持 HTML 格式)
       title = ""
-      # subtitle shown in home page (HTML format is supported)
-      # 主页显示的网站副标题 (允许 HTML 格式)
+      # subtitle shown in home page (HTML format is supported
       subtitle = "nurullahpolat.com"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
@@ -176,7 +170,7 @@
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = ""
+    GitHub = "https://github.com/nurullahpolat0"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
