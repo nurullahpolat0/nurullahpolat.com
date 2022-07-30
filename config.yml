@@ -1,3 +1,11 @@
 baseURL: "https://www.nurullahpolat.com/"
-lannguageCode: en-us
+languageCode: en-us
 theme: LoveIt-master
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+  tr:
+    languageName: Türkçe
+    weight: 2
