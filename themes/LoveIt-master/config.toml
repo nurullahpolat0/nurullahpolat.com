@@ -7,6 +7,7 @@
 [params]
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
+  favicon = "/img/favicon.ico"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
   # which hash function used for SRI, when empty, no SRI is used
@@ -92,14 +93,16 @@
     rss = 10
 
   # App icon config
-  # 应用图标配置
+
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
+   
     title = "nurullahpolat.com"
+
     # whether to omit favicon resource links
-    # 是否隐藏网站图标资源链接
+
     noFavicon = false
+    
     # modern SVG favicon to use in place of older style .png and .ico files
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
     svgFavicon = ""
